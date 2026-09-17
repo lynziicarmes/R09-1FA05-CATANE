@@ -1,0 +1,19 @@
+import math
+
+# This program calculates the distance between two points.
+
+# Input the coordinates of the two points.
+x1 = float(input("Enter x1: "))
+y1 = float(input("Enter y1: "))
+x2 = float(input("Enter x2: "))
+y2 = float(input("Enter y2: "))
+
+# Find the difference between the x- and y-coordinates.
+x_difference = x2 - x1
+y_difference = y2 - y1
+
+# Calculate the distance using the distance formula.
+distance = math.sqrt(math.pow(x_difference, 2) + math.pow(y_difference, 2))
+
+# Round the answer to two decimal places and display the result.
+print("The distance between the two points is:", round(distance, 2))
