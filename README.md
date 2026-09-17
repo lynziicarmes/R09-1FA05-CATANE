@@ -2,14 +2,14 @@
 
 ## Description
 
-The Distance Calculator is a Python program that calculates the distance between two points on a coordinate plane. It uses the distance formula to determine the distance between the points.
+The Distance Calculator is a Python program that calculates the distance between two points on a coordinate plane. It uses the distance formula to find the distance between the points and rounds the answer to two decimal places.
 
 ## How to Run the Program
 
 1. Make sure Python is installed on the computer.
 2. Open the `distance_calculator.py` file in a Python editor or IDE.
 3. Run the program.
-4. Enter the x and y coordinates when prompted.
+4. Enter the x- and y-coordinates of the two points when prompted.
 5. The program will display the calculated distance.
 
 ## Input Needed
